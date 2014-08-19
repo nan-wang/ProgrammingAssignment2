@@ -1,4 +1,13 @@
 ## This is a test file for checking the basic functions of the implementations.
+## Basically, we initialize the cached matrix with 
+# [,1] [,2]
+# [1,]    1    3
+# [2,]    2    4
+## First, we calculate the inverse by directly using `makeCacheMatrix`
+## and check the functions in `makeCacheMatrix`.
+## Afterwards, we set the cached matrix to its inverse
+## and calculate the inverse with `cacheSolve`.
+
 setwd('.')
 source('cachematrix.R')
 ## test code

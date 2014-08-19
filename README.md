@@ -17,3 +17,5 @@ invertible.
 
 ### Implementation:
 
+1. `cachematrix.R`: the main implementations
+2. `test_cachematrix.R`: the testing file including the test cases for the basic functionalities.
